@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @VugarFrontEnd
-- 👀 I’m interested in Front End Web Development and UX/UI
+- 👋 Hi, I’m Vugar Bakhshalizade.
+- 👀 I’m really interested in Front End Web Development and UX/UI.
 - 🌱 I’m currently learning Front End Web Development
 - 💞️ I’m looking to collaborate on anything benefitial 
 
