@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Charis+SIL&family=Lobster&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"> 
+  <title>UFAZ HTML Email</title>
+  <style>
+
+    *{
+      margin: 0%;
+      padding: 0%;
+      border: 0px;
+    }
+
+    body {
+      font-family: 'Charis SIL', serif;
+      background-color: aliceblue;
+      font-size: 18px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    img{
+      max-width: 100%;
+    }
+
+    header{
+      width: 98%;
+    }
+
+    #logo{
+      max-width: 150px;
+      float: left;
+      margin-top: 5px;
+    }
+
+    #social {
+      list-style-type: none;
+      float: right;
+      padding-top: 20px;
+    }
+
+    #social > li {
+      display: inline;
+    }
+
+    .social1, .social2, .social3, .social4 {
+      padding: 2px;
+    }
+
+    #wrapper{
+      background: linear-gradient(30deg, rgb(61, 178, 225), rgb(206, 232, 206))
+    }
+
+    .btn{
+      background-color: rgb(66, 152, 154);
+      height: 30px;
+      width: 140px;
+      color: white;
+      border-radius: 20px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      float: right;
+      margin: 0 10px 10px 0;
+    }
+
+    .applybtn{
+      background-color: rgb(66, 152, 154);
+      height: 30px;
+      width: 140px;
+      color: white;
+      border-radius: 20px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      float: right;
+      margin: 0 10px 10px 0;
+    }
+
+    .applybtn:hover{
+      background: linear-gradient(45deg, skyblue, rgb(255, 132, 212));
+    }
+
+    .learn{
+      padding-top: 10px;
+      text-decoration: none;
+      text-align: center;
+      color: white;
+    }
+
+    .applybtnclass{
+      padding-top: 10px;
+      text-decoration: none;
+      text-align: center;
+      color: white;
+    }
+
+    .btn:hover{
+      background: linear-gradient(45deg, skyblue, rgb(255, 132, 212));
+    }
+
+    hr{
+      height: 1px;
+      width: 96%;
+      clear: both;
+      margin: 5px auto;
+      background-color: blanchedalmond;
+    }
+
+    h1{
+      text-align: center;
+    }
+
+    #contentpara1, #contentpara2{
+      margin-left: 10px;
+      margin-right: 10px;
+      text-align: justify;
+      text-indent: 50px;
+    }
+
+    #contact{
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <div id="logo"><img src="./UFAZ logo.png" alt=""></div>
+      <div id="socialdiv">
+        <ul id="social">
+          <li><a style="margin-bottom: 11px;" class="social1" href="https://www.youtube.com/c/UFAZFrenchAzerbaijaniUniversity" target="_blank"><img width="69px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png" alt="youtube-logo"></a></li>
+
+          <li><a class="social2" href="https://www.facebook.com/ufaz.university" target="_blank"><img width="55px"  src="https://pnggrid.com/wp-content/uploads/2021/04/facebook-logo-1024x1024.png" alt="facebook-logo"></a></li>
+
+          <li><a class="social3" href="https://www.instagram.com/french_azerbaijani_university/" target="_blank"><img width="55px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="instagram-logo"></a></li>
+
+          <li><a class="social4" href="https://web.whatsapp.com/" target="_blank"><img width="55px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/2048px-WhatsApp_logo-color-vertical.svg.png" alt="whatsapp-logo"></a></li>
+        </ul>
+      </div>
+    </header>
+    <div id="banner">
+      <img src="./IMG_0533.jpg" alt="UFAZ Building Photo">
+    </div>
+    <div class="content">
+      <h1>Study in Azerbaijan with UFAZ</h1>
+      <p id="contentpara1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium illo minus sunt nostrum voluptates quod optio ad, tempore, quidem, officia ea ducimus culpa id accusantium vitae laborum ipsum amet provident. Excepturi et amet obcaecati totam, a sint harum nam illum sapiente recusandae culpa mollitia porro quisquam perspiciatis provident praesentium officiis incidunt cumque dicta reprehenderit commodi unde alias quae officia.</p>
+      <br>
+      <p id="contentpara2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorem totam deleniti quod eius inventore dignissimos officia dicta. Animi, voluptate nesciunt excepturi voluptatem aspernatur asperiores incidunt cum! Repudiandae vitae, quisquam fugiat minus optio, reiciendis cumque adipisci voluptates praesentium culpa incidunt?</p>
+      <button class="btn"><a class="learn" href="https://www.ufaz.az/" target="_blank">Learn more</a></button>
+      <button class="applybtn"><a class="applybtnclass" href="#" target="_blank">Apply Now</a></button>
+      <br>
+      <hr>
+      <footer>
+        <p style="font-size: 15px;" id="contact">
+          <a style="text-decoration: none;" href="www.ufaz.az">www.ufaz.az</a> <br>
+          Email: info@ufaz.az <br>
+          Phone: (+994 51) 620 21 70 <br>
+          Nizami str. 183, Baku Azerbaijan <br>
+        </p>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
